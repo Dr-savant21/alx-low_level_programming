@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int alpahaNums;
+	int alphaNums;
 
 	for (alphaNums = 48; alphaNums < 58; alphaNums++)
 	{
 		putchar(alphaNums);
-		if (alpahNums != 57)
-		{"
+		if (alphaNums != 57)
+		{
 			putchar(',');
 			putchar(' ');
 		}
