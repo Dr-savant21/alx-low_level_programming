@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - funtion to check for lowercase character
+ * @c: the character to check
  * author: Dr-savantcode
  * Return: 0
  */
