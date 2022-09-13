@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet+x10 - function to print abc 10 times
+ * print_alphabet_x10 - function to print abc 10 times
  * author:Dr savantcode
  * return: 0 on success
  */
