@@ -1,20 +1,26 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
+ * print_diagonal - draws a diagonal line
+ * @n: is the number of times the character \ should printed
+ * author: Dr-savantcode
  */
-void more_numbers(void)
+void print_diagonal(int n)
 {
 	int i, j;
 
-	for (i = 0; i < 10; i++)
+	if (n > 0)
 	{
-		for (j = 0; j < 15; j++)
+		for (i = 0; i < n; ++i)
 		{
-			if (j >= 10)
-				_putchar(j / 10 + 48);
-			_putchar(j % 10 + 48);
+			for (j = 0; j < i; j++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
+	else
+		_putchar('\n');
 }
